@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    background-color:#CFECEC;
+}
+
+
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    color: #5F9EA0;
+    font-size: 40px;
+}
+
+#about-me {
+    display: grid;
+    text-align: right;
+    border-style: solid;
+    border-color: black;
+    padding-right: 100px;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    background-color:#5F9EA0;
+    height: 80px;
+    font-size: 50px;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+}
+.portfolio-text {
+    display: flex;
+    justify-content: center;
+    color: #25383C;
+    background-color: #FAF0DD;
+    border-style: solid;
+    max-width: 600px;
+    text-align: center;
+    font-size: 35px;
+    height: 822px;
+}
+
+.jorge-image {
+    display: flex;
+    border-style: solid;
+    width: 600px;
+    height: 700px;
+}
+
+#github {
+    height: 70px;
+}
+.fas fa-link {
+    height: 200px;
+    width: 300px;
+}
+
+.contact-info {
+    color: antiquewhite;
+    background-color: #5F9EA0;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.info3:hover {
+    color: orange;
+}
+#skills {
+    border-style: solid;
+    border-color: black;
+    padding-right: 100px;
+    color: antiquewhite;
+    background-color:#5F9EA0;
+    width: 230px;
+}
+.my-skills {
+    display: flex;
+    margin-bottom: 10px;
+    color: #25383C;
+    background-color: #FAF0DD;
+    border-style: solid;
+    font-size: 35px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.list1 {
+    margin-left: 250px;
+    margin-right: 100px;
+}
+#projects {
+    display: grid;
+    text-align: right;
+    border-style: solid;
+    border-color:black;
+    padding-right: 100px;
+    color: antiquewhite;
+    background-color: #5F9EA0;
+    font-size: 50px;
+}
+
+.my-work {
+    margin-bottom: 10px;
+    color: #25383C;
+    background-color: #FAF0DD;
+    border-style: solid;
+    font-size: 35px;
+}
+
+.screenshot1 {
+    height: 700px;
+    width: 900px;
+}
+
+.screenshot1:hover {
+    box-shadow: 0 0 5px 5px rgba(140, 206, 228, 0.5);
+}
+
+.footer {
+    border-style: solid;
+    border-color: black;
+    color: antiquewhite;
+    text-align: center;
+    background-color:#5F9EA0;
+}
+
+.navbar {
+    display: flex;
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    cursor: pointer;
+}
+
+.items {
+    font-size: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #CFECEC;
+}
+
+.items li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.items li a {
+    text-decoration: none;
+    color: #5F9EA0;
+}
+
+.items li a:hover {
+    color: orange;
+}
+
