@@ -17,14 +17,15 @@
 
 html {
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 body {
-  border-style: solid;
+  margin:0
 }
 
 .navigation {
-  background-color: #634F5F;
+  background-color: #E08976;
   overflow: hidden;
 }
 
@@ -80,8 +81,12 @@ p {
   font-size: 30px;
 }
 
+figcaption {
+  text-align: center
+}
+
 #about-me{
-  background-color: #E08976;
+  background-color: ;
 }
 
 .headshot {
@@ -97,6 +102,23 @@ p {
 .headshot-bio{
   line-height: 50px;
   text-align: center;
+}
+
+.tech-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.tech-item {
+  /* border-style: solid; */
+  justify-self: center;
+  padding: 50px;
+}
+
+.tech-item img{
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
 
 .tech-list {
