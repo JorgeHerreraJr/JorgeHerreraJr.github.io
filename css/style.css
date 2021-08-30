@@ -24,7 +24,7 @@ body {
 }
 
 .navigation {
-  background-color: #333;
+  background-color: #634F5F;
   overflow: hidden;
 }
 
@@ -52,7 +52,7 @@ body {
 header,
 h1,
 .h2-h3 {
-  background-color: #333;
+  background-color: #E08976;
   color: #f2f2f2;
 }
 
@@ -80,6 +80,10 @@ p {
   font-size: 30px;
 }
 
+#about-me{
+  background-color: #E08976;
+}
+
 .headshot {
   width: 100%;
 }
@@ -92,14 +96,14 @@ p {
 
 .headshot-bio{
   line-height: 50px;
+  text-align: center;
 }
 
 .tech-list {
   font-size: 20px;
-  text-align: center;
   justify-content: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .examples-container {
@@ -143,19 +147,21 @@ p {
 }
 
 footer {
-  background-color: #333;
+  background-color: ##634F5F;
 }
 
 footer a {
+  display: block;
+  width: 80px;
+  flex-direction: column;
   text-decoration: none;
   font-size: 20px;
   color: #f2f2f2;
   padding-left: 10px;
   padding-right: 10px;
+  line-height: 40px;
 }
 
 footer a:hover {
-  text-decoration: none;
-  background-color: #f2f2f2;
-  color: #333;
+  text-decoration:underline;
 }
