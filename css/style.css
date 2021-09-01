@@ -11,7 +11,9 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: #E08976;
+  border-style: solid;
+  border-color: #f2f2f2;
   border-radius: 10px;
 }
 
@@ -36,7 +38,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .navigation a:hover {
@@ -56,6 +58,9 @@ h1,
 .h2-h3 {
   background-color: #E08976;
   color: #f2f2f2;
+  padding-bottom: 10px;
+  padding-top: 10px
+  
 }
 
 h1 {
@@ -65,9 +70,9 @@ h1 {
 }
 
 h2 {
+  display: block;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
   font-size: 30px;
 }
 
@@ -93,6 +98,8 @@ figcaption {
 
 .headshot {
   width: 100%;
+  border-style: solid;
+  border-radius:100px ;
 }
 
 .headshot-box {
@@ -104,6 +111,11 @@ figcaption {
 .headshot-bio{
   line-height: 50px;
   text-align: center;
+  border-style: solid;
+  border-radius: 50px;
+  background-color: #E08976;
+  margin: 100px;
+  padding: 10px;
 }
 
 #tech-skills {
@@ -124,6 +136,8 @@ figcaption {
 .tech-item img{
   width: 250px;
   height: 250px;
+  border-style: solid;
+  border-radius: 50px;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -143,13 +157,15 @@ figcaption {
 .examples-container {
   display: flex;
   width: 100%;
-  /* padding: 4% 2%; */
+  padding: 4% 2%;
   box-sizing: border-box;
   height: 100vh;
 }
 
 .examples-images {
   flex: 1;
+  border-style: solid;
+  border-radius: 50px;
   overflow: hidden;
   transition: 0.5s;
   margin: 0 2%;
@@ -180,10 +196,6 @@ figcaption {
   height: 100%;
 }
 
-footer {
-  background-color:;
-}
-
 footer a {
   display: block;
   width: 80px;
@@ -193,6 +205,7 @@ footer a {
   color: #f2f2f2;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
   line-height: 40px;
 }
 
